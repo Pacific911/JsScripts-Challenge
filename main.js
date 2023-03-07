@@ -9,7 +9,7 @@ myForm.addEventListener('submit', (e) => {
 
     if(nameInput.value === '' || emailInput.value === ''){
         msg.classList.add('error');
-        msg.innerHTML = 'please fill the fields';
+        msg.innerHTML = 'please fill the field';
 
         setTimeout(() => msg.remove(), 2000);
     }
